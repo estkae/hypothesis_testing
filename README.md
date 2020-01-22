@@ -20,12 +20,12 @@ What is the difference in New York's electricity consumption per season?
     H0: Mean fuel consumption of each season are equal
     H1: Mean fuel consumption of each season are not equal
 
-    **Tests Used:**
-    - ANOVA where we compare means across multiple groups (seasons).
-    - Tukeys HSD which provided us with multiple comparisons of the mean.
+  **Tests Used:**
+  - ANOVA where we compare means across multiple groups (seasons).
+  - Tukeys HSD which provided us with multiple comparisons of the mean.
 
-    **IV:**  Seasons - Discrete
-    **DV:** Fossil Fuels Consumption(thsnd tons) - Continuous
+  **IV:**  Seasons - Discrete
+  **DV:** Fossil Fuels Consumption(thsnd tons) - Continuous
 
 ![](images/consumption.png)
 
@@ -61,11 +61,12 @@ Is there a difference in electricity price per season between northern and south
     H0: mean price is equal per season between the states
     H1: means price is not equal per season between the states
 
-    **Tests Used**
-    Two sample TTest, ANOVA
+  **Tests Used**
+  - Two sample TTest
+  - ANOVA
 
-    **IV:**  Seasons - Discrete
-    **DV:** Average retail price per state in 2001-2019 - adjusted for inflation - Continuous
+  **IV:** Seasons - Discrete
+  **DV:** Average retail price per state in 2001-2019 - adjusted for inflation - Continuous
 
 **Results:** REJECT H0 - electricity price is significantly different per season and between N and S
 ![](images/price_southnorth.png)
@@ -76,11 +77,12 @@ Is there a monthly difference in electricity price in N and S states?
     H0: mean price is equal monthly in N and S states
     H1: means price is not equal monthly in N and S states
 
-    **Tests Used:**
-    ANOVA and Tukey pairwise comparison
+  **Tests Used:**
+  - ANOVA
+  - Tukey pairwise comparison
 
-    **IV:**  Months - Discrete
-    **DV:** Average retail price per state in 2001-2019 - adjusted for inflation - Continuous (Distribution not normalized)
+  **IV:**  Months - Discrete
+  **DV:** Average retail price per state in 2001-2019 - adjusted for inflation - Continuous (Distribution not normalized)
 
 **Results:** REJECT H0 - electricity price is significantly different monthly
 ![](images/price_monthly.png)
