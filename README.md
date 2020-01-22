@@ -25,7 +25,7 @@ What is the difference in New York's electricity consumption per season?
     ***IV:***  Seasons - Discrete
     ***DV:*** Fossil Fuels Consumption(thsnd tons) - Continuous
 
-![](images/naturalgas_consumption.png| width=100)
-![](images/coal_consumption.png| width=100)
-![](images/petliq_consumption.png| width=100)
-![](images/petcoke_consumption.png| width=100)
+![](images/naturalgas_consumption.png|100x100)
+![](images/coal_consumption.png|100x100)
+![](images/petliq_consumption.png|100X100)
+![](images/petcoke_consumption.png|100X100)
